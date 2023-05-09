@@ -1,9 +1,14 @@
 # Spaceship Titanic
 ## Predict which passengers are transported to an alternate dimension
 
-The Spaceship Titanic was an interstellar passenger liner launched a month ago. With almost 13,000 passengers on board, the vessel set out on its maiden voyage transporting emigrants from our solar system to three newly habitable exoplanets orbiting nearby stars.
+## Problem definition Summary:
+The Spaceship Titanic, an interstellar passenger liner, recently embarked on its inaugural voyage with the mission of transporting emigrants to three newly habitable exoplanets. However, tragedy struck when the spaceship collided with a hidden spacetime anomaly near Alpha Centauri, leading to a fate reminiscent of the original Titanic. Although the vessel remained intact, approximately half of the passengers—nearly 6,500 individuals—were unexpectedly transported to an alternate dimension. To aid in the rescue and recovery efforts, the challenge is to predict which passengers experienced this anomaly using the available records retrieved from the damaged computer system of the spaceship.
 
-While rounding Alpha Centauri en route to its first destination—the torrid 55 Cancri E—the unwary Spaceship Titanic collided with a spacetime anomaly hidden within a dust cloud. Sadly, it met a similar fate as its namesake from 1000 years before. Though the ship stayed intact, almost half of the passengers were transported to an alternate dimension!
-To help rescue crews and retrieve the lost passengers, you are challenged to predict which passengers were transported by the anomaly using records recovered from the spaceship’s damaged computer system.
 
-## Help save them and change history!
+● Cleansed and preprocessed the collected data by removing noise, handling missing values, and standardizing the format for further analysis.<br/>
+● Performed feature engineering by extracting relevant features and enhancing the dataset.<br/>
+● Conducted exploratory data analysis (EDA) to gain insights into the data.<br/>
+● Trained classification models using the RandomForestClassifier and GradientBoostingClassifier algorithms from the scikit-learn library.<br/>
+● Employed the GridSearchCV module from scikit-learn to perform hyperparameter tuning and optimize the models' performance.<br/>
+● Evaluated the trained models using metrics such as accuracy_score, precision_score, and recall_score.<br/>
+● Based on the evaluation results, I saved the best-performing model.<br/>
